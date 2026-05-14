@@ -1,0 +1,5 @@
+openai>=1.0.0
+anthropic>=0.25.0
+bandit>=1.7.5
+semgrep>=1.45.0
+pip-audit>=2.6.1

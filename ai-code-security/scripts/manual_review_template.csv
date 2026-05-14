@@ -1,0 +1,3 @@
+artifact_id,tool_source,prompt_id,reviewer,review_date,input_validation,output_encoding,auth_session_mgmt,access_control,crypto_storage,error_handling,logging,additional_findings,kappa_agreed,notes
+gpt4o_P01,gpt4o,P01,Reviewer1,YYYY-MM-DD,PASS/FAIL,PASS/FAIL,PASS/FAIL,PASS/FAIL,PASS/FAIL,PASS/FAIL,PASS/FAIL,"describe any finding not caught by SAST",YES/NO,
+gpt4o_P01,gpt4o,P01,Reviewer2,YYYY-MM-DD,PASS/FAIL,PASS/FAIL,PASS/FAIL,PASS/FAIL,PASS/FAIL,PASS/FAIL,PASS/FAIL,,YES/NO,

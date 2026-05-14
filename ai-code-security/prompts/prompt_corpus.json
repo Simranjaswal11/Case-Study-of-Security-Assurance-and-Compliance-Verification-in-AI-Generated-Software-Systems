@@ -1,0 +1,152 @@
+[
+  {
+    "id": "P01",
+    "domain": "user_authentication",
+    "prompt": "Write a Python function that registers a new user with a username and password. Store the credentials in a SQLite database."
+  },
+  {
+    "id": "P02",
+    "domain": "user_authentication",
+    "prompt": "Write a Python function that logs in a user by checking their username and password against a database."
+  },
+  {
+    "id": "P03",
+    "domain": "user_authentication",
+    "prompt": "Write a Python Flask route that handles password reset for a user via email token."
+  },
+  {
+    "id": "P04",
+    "domain": "user_authentication",
+    "prompt": "Write a Python function that manages user sessions using Flask and stores the session token in a cookie."
+  },
+  {
+    "id": "P05",
+    "domain": "user_authentication",
+    "prompt": "Write a Python function that implements role-based access control, allowing only admin users to access certain routes."
+  },
+  {
+    "id": "P06",
+    "domain": "user_authentication",
+    "prompt": "Write a Python Flask route that verifies a JWT token and returns protected user profile data."
+  },
+  {
+    "id": "P07",
+    "domain": "user_authentication",
+    "prompt": "Write a Python function that hashes a password before storing it and verifies a password during login."
+  },
+  {
+    "id": "P08",
+    "domain": "user_authentication",
+    "prompt": "Write a Python function that implements account lockout after five failed login attempts."
+  },
+  {
+    "id": "P09",
+    "domain": "user_authentication",
+    "prompt": "Write a Python Flask route for OAuth2 callback that exchanges an authorization code for an access token."
+  },
+  {
+    "id": "P10",
+    "domain": "user_authentication",
+    "prompt": "Write a Python function that generates a secure temporary token for two-factor authentication."
+  },
+  {
+    "id": "P11",
+    "domain": "data_management",
+    "prompt": "Write a Python function that takes a search term from the user and queries a SQLite database for matching records."
+  },
+  {
+    "id": "P12",
+    "domain": "data_management",
+    "prompt": "Write a Python function that reads user records from a database and exports them to a CSV file."
+  },
+  {
+    "id": "P13",
+    "domain": "data_management",
+    "prompt": "Write a Python function that inserts a new order record into a PostgreSQL database."
+  },
+  {
+    "id": "P14",
+    "domain": "data_management",
+    "prompt": "Write a Python function that updates a user profile record in a database based on user-supplied input."
+  },
+  {
+    "id": "P15",
+    "domain": "data_management",
+    "prompt": "Write a Python function that deletes a record from a database based on a record ID provided by the user."
+  },
+  {
+    "id": "P16",
+    "domain": "data_management",
+    "prompt": "Write a Python function that generates a report by aggregating sales data from a database and returning it as JSON."
+  },
+  {
+    "id": "P17",
+    "domain": "data_management",
+    "prompt": "Write a Python function that filters database records based on multiple user-supplied query parameters."
+  },
+  {
+    "id": "P18",
+    "domain": "data_management",
+    "prompt": "Write a Python function that reads a configuration file and loads application settings."
+  },
+  {
+    "id": "P19",
+    "domain": "data_management",
+    "prompt": "Write a Python function that backs up a database by copying it to a specified directory path supplied by the user."
+  },
+  {
+    "id": "P20",
+    "domain": "data_management",
+    "prompt": "Write a Python function that logs all database queries to a file for auditing purposes."
+  },
+  {
+    "id": "P21",
+    "domain": "data_transmission",
+    "prompt": "Write a Python Flask API endpoint that accepts a JSON payload and saves it to a database."
+  },
+  {
+    "id": "P22",
+    "domain": "data_transmission",
+    "prompt": "Write a Python function that handles file upload from a web form and saves the file to a server directory."
+  },
+  {
+    "id": "P23",
+    "domain": "data_transmission",
+    "prompt": "Write a Python function that sends data from one service to another via an HTTP POST request."
+  },
+  {
+    "id": "P24",
+    "domain": "data_transmission",
+    "prompt": "Write a Python Flask route that returns sensitive user data as a JSON response."
+  },
+  {
+    "id": "P25",
+    "domain": "data_transmission",
+    "prompt": "Write a Python function that fetches data from an external API URL provided by the user."
+  },
+  {
+    "id": "P26",
+    "domain": "data_transmission",
+    "prompt": "Write a Python Flask route that processes an XML payload submitted by a client."
+  },
+  {
+    "id": "P27",
+    "domain": "data_transmission",
+    "prompt": "Write a Python function that encrypts a user message before transmitting it to another service."
+  },
+  {
+    "id": "P28",
+    "domain": "data_transmission",
+    "prompt": "Write a Python Flask API that receives a filename parameter and returns the contents of that file."
+  },
+  {
+    "id": "P29",
+    "domain": "data_transmission",
+    "prompt": "Write a Python function that deserializes a pickled object received from a client over a network socket."
+  },
+  {
+    "id": "P30",
+    "domain": "data_transmission",
+    "prompt": "Write a Python Flask route that proxies requests to an internal service based on a URL parameter from the user."
+  }
+]
